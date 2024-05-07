@@ -1,110 +1,257 @@
 <!DOCTYPE html>
-<html lang=“en”>	
-        <head>
-                <meta charset=“UTF-8”>
-                <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
-                <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-                <title>My Portfolio</title>
-        </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houda Filali - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        .section-title {
+            font-weight: bold;
+        }
+        .project {
+            margin-bottom: 10px;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 5px;
+        }
+        .list-item {
+            margin-bottom: 5px;
+        }
+        .list-item:last-child {
+            margin-bottom: 0;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .project h3 {
+            transition: color 0.3s ease;
+        }
+        .project:hover h3 {
+            color: #ff7f50;
+        }
+        #scrollToTopButton {
+            position: fixed;
+            bottom: 20px; 
+            right: 20px; 
+            background-color: #ff7f50;
+            border-radius: 50px;
+            border-color: black;
+            color: black;
+            padding: 10px 20px; 
+            border: none;
+            cursor: pointer;
+            z-index: 1000; 
+            transition: background-color 0.3s ease; 
+            font-weight: bold; 
+            font-size: medium;
+        }
 
-	    <body>
+        #scrollToTopButton:hover {
+            background-color: #ffa07a; 
+        }
 
+       
+    </style>
+    
+</head>
+<body>
+    <div class="container">
         <h1>Houda Filali</h1>
-        <hr />
+        <p>filalihouda11@gmail.com • 438.921.9314</p>
+        <p><a href="www.linkedin.com/in/houdafilali">www.linkedin.com/in/houdafilali</a></p>
+        <p><a href="www.github.com/houda-filali">www.github.com/houda-filali</a></p>
 
-        <h2>Summary</h2>
-            <p>
-            Operating Systems │ Windows Vista • Windows 7 • Windows 8 • macOS • Mobile <br/>
-            Applications │ Eclipse • Microsoft Office: Word • Excel • PPT • Access • Eclipse • Visio <br/>
-            Programming │	 Java • Python • Html • CSS • JavaScript <br/>
-            Languages │ French│Spoken & Written • English│Spoken & Written • Arabic│Spoken • Spanish│Spoken <br/>
-            Licenses & Certifications │	 The Complete 2023 Web Development Bootcamp • Leadership & Collaboration certificate by FutureBound Concordia University • First Aid - General (valid till 2026) • National lifeguard - Pool (valid till 2024) <br/>
-            </p>
+        <div class="section" class="project">
+            <h2>SUMMARY OF SKILLS AND QUALIFICATIONS</h2>
+            <p><strong>Operating Systems:</strong> Windows Vista, Windows 7, Windows 8, macOS, Mobile</p>
+            <p><strong>Applications:</strong> Eclipse, Visio, Visual Studio Code, Microsoft Office (Excel, PPT, Word)</p>
+            <p><strong>Programming:</strong> Java, Python, HTML, CSS, JavaScript (Node.js, EJS)</p>
+            <p><strong>Methodologies:</strong> Project Management</p>
+            <p><strong>Licenses & Certifications:</strong> The Complete 2023 Web Development Bootcamp, Leadership & Collaboration certificate by FutureBound Concordia University, First Aid - General (valid till 2026), National lifeguard - Pool (valid till 2026)</p>
+        </div>
 
-        <h2>Education</h2>
-            <ul>
-                <li>Bachelors of Engineering, Software Engineering CO-OP - Concordia University (2023-2027)</li>
-
-                <li>DEC in pure and applied science - Dawson College (2021-2023)</li>
-            </ul>
-
-        <h2>Work experience</h2>
-            <ul>
-                <li>
-                    <h3>Aquatics supervisor</h3>
-                    <p>August 2023 - Present</p>
-                    <ul>
-                        <li>Supervise, manage, and organize a team of 15 employees composed of swimming instructors and lifeguards.</li>
-                        <li>Collaborate with the assistant-coordinators and the coordinator for the organization of the classes offered.</li>
-                        <li>Respond to the clients' needs by speaking in English, French, Arabic and Spanish.</li>
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <div class="project">
+                <h3>Bachelor of Engineering – Software Engineering Co-op</h3>
+                <p>Concordia University, Montreal, QC</p>
+                <p>2023–2027 (Expected)</p>
+                <ul class="list-item">
+                    <li>Member of the Institute for Co-operative Education</li>
+                    <li>GPA 4.03/4.30</li>
+                    <li><strong>Relevant Courses:</strong></li>
+                    <ul class="list-item">
+                        <li>Object-Oriented Programming II (Java) (in progress)</li>
+                        <li>Web Programming (in progress)</li>
+                        <li>Professional Practice and Responsibility</li>
                     </ul>
-                    <p>Core Competencies: Leadership, Team management and coordination, Collaboration, Multilingual Oral and written communication, decision-making</p>
-                
-                </li>
-
-                <li>
-                    <h3>Academic tutor</h3>
-                    <p>July 2019 - Present</p>
-                    <ul>
-                        <li>Improve my students performance through personalized tutoring strategies.</li>
-                        <li>Demonstrate strong communication skills.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>DEC in Pure and Applied Science</h3>
+                <p>Dawson College, Montreal, QC</p>
+                <p>2021–2023</p>
+                <ul class="list-item">
+                    <li>Dean’s Honor Roll Student (2021, 2022, 2023)</li>
+                    <li><strong>Relevant Courses:</strong></li>
+                    <ul class="list-item">
+                        <li>Intro to Computer Programming in Engineering and Science (Python)</li>
                     </ul>
-                    <p>Core Competencies: Adaptability, Oral communication, Collaboration</p>
-                </li>
+                </ul>
+            </div>
+        </div>
+        
 
-                <li>
-                    <h3>Swimming Instructor</h3>
-                    <p>August 2021 - Present</p>
-                    <ul>
-                        <li>Teach swimming techniques by using various teaching methods according to the personality of the participant.</li>
-                        <li>Enhance swimming abilities of my swimmers.</li>
-                        <li>Communicate with the swimmers and their parents (if applicable) about their strengths, weaknesses and progression.</li>
-                    </ul>
-                    <p>Core Competencies: Lesson Planning, Oral communication (French and English), adaptability</p>
-                
-                </li>
+        <div class="section">
+            <h2>PROJECTS</h2>
+            <div class="project">
+                <h3>Library Management System</h3>
+                <p>Concordia University, Montreal, QC</p>
+                <ul class="list-item">
+                    <li>Developed a complete management of library items and leases, measured by effective tracking, by coding a comprehensive library management system.</li>
+                    <li>Accomplished code organization into Java packages, increasing maintainability.</li>
+                    <li>Accomplished intuitive interface design, improving user interaction through a menu approach.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>“Hello World” Hackathon</h3>
+                <p>Concordia University, Montreal, QC</p>
+                <ul class="list-item">
+                    <li>Collaborated effectively, measured by completed assignments, by dividing tasks during the hackathon.</li>
+                    <li>Developed problem-solving skills, measured by correct solutions, by using Java to solve 8 challenges.</li>
+                    <li>Accomplished code debugging, measured by error identification, by testing each solution.</li>
+                    <li>Managed time efficiently, measured by meeting deadlines, by prioritizing tasks.</li>
+                </ul>
+            </div>
+        </div>
 
-                <li>
-                    <h3>Lifeguard</h3>
-                    <p>March 2022 - Present</p>
-                    <ul>
-                        <li>Collaborate with the 2 or 3 other lifeguards present to implement the safety and pool rules.</li>
-                        <li>Alert of the situation of all swimmers under my supervision.</li>
-                    </ul>
-                    <p>Core Competencies: Collaboration, alertness, responsibility</p>
-                
-                </li>
+        <div class="section">
+            <h2>WORK EXPERIENCE</h2>
+            <div class="project">
+                <h3>Aquatics Supervisor</h3>
+                <p>YMCA Cartierville - The YMCAs of Quebec, Montreal, Canada</p>
+                <p>Sept 2023–present</p>
+                <ul class="list-item">
+                    <li>Lead a team of more than 15 individuals in delivering aquatics services.</li>
+                    <li>Collaborate with the assistant-coordinators and the coordinator for the organization of the classes offered.</li>
+                    <li>Handle customer inquiries and resolve conflicts effectively.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Managerial Assistant</h3>
+                <p>Open Frame Technologies - Laval, Canada</p>
+                <p>Sept 2020–present</p>
+                <ul class="list-item">
+                    <li>Provided administration support for a lead developer by managing calendars and scheduling appointments.</li>
+                    <li>Organized confidential data using Microsoft Excel.</li>
+                    <li>Assisted in budget tracking and expense management.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Swimming Instructor</h3>
+                <p>YMCA Cartierville - The YMCAs of Quebec, Montreal, Canada</p>
+                <p>Aug 2021–present</p>
+                <ul class="list-item">
+                    <li>Teach swimming techniques using adaptable teaching methods.</li>
+                    <li>Communicate progress and feedback to swimmers and parents.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Online Store Co-Owner</h3>
+                <p>E-Commerce Shopify Dropshipping – Laval, Canada</p>
+                <p>Jan 2019–Mar 2023</p>
+                <ul class="list-item">
+                    <li>Conducted market and financial analysis to inform product positioning and pricing.</li>
+                    <li>Managed order fulfillment.</li>
+                    <li>Promoted the products by creating viral content and implementing Facebook and Instagram ad strategies.</li>
+                </ul>
+            </div>
+        </div>        
+
+        <div class="section">
+            <h2>AWARDS & DISTINCTIONS</h2>
+            <ul class="list-item">
+                <li>Women in Engineering Award, awarded for academic performance in CEGEP (April 2023)</li>
+                <li>Desjardins Foundation scholarship, received for college academic excellence and community involvement (October 2022)</li>
+                <li>Desjardins Foundation scholarship, received for high school academic performance and community involvement (October 2021)</li>
             </ul>
+        </div>
 
-        <h2>Projects</h2>
-            <ul>
-                <li>Java Calculator Development</li>
-                <li>HTML Resume</li>
-            </ul>
-            
+        <div class="section">
+            <h2>VOLUNTEER WORK</h2>
+            <div class="project">
+                <h3>First Aid Volunteer</h3>
+                <p>FAST First Aid Volunteering, Montreal, Canada</p>
+                <ul class="list-item">
+                    <li>Assist individuals in distress during medical emergencies.</li>
+                    <li>Lead and coordinate the first aid medical response in high-stress situations.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Free tutoring and swimming lessons</h3>
+                <p>Montreal, Canada</p>
+                <ul class="list-item">
+                    <li>Offer free tutoring and swimming lessons to lower income children.</li>
+                </ul>
+            </div>
+        </div>
 
-            <h2>Awards and Distinctions</h2>
-            <ul>
-                <li>Women in Engineering Award (April 2023)</li>
-                <li>Desjardins Foundation scholarship (October 2022)</li>
-                <li>Desjardins Foundation scholarship (October 2021)</li>
-            </ul>
+        <div class="section">
+            <h2>INTERESTS</h2>
+            <p><strong>Sports:</strong> Swimming instructor; Swimming recreational coach (2021-Present)</p>
+            <p><strong>Languages:</strong> English, French, Arabic, Spanish</p>
+        </div>
 
-        <h2>Volunteer Work</h2>
-            <ul>
-                <li>
-                    First Aid Volunteer (2022)
-                    <ul>
-                        <li>Volunteered twice a week for one-hour sessions during my second year at Dawson College</li>
-                        <li>Assist individuals in distress during medical emergencies.</li>
-                        <li>Lead and coordinate the first aid medical response in high-stress situations.</li>
-                    </ul>
+        <button id="scrollToTopButton" onclick="scrollToTop()">Back to Top</button>
 
-                </li>
+    </div>
 
-            </ul>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" 
+            });
+        }
+    </script>
 
-        </body>
+</body>
 </html>
-
 
